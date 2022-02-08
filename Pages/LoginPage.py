@@ -1,12 +1,13 @@
 from Pages.BasePage import BasePage
 from selenium.webdriver.common.by import By
+from Locators.LoginPageLocators import get__login_locator_value
 
 
 class LoginPage(BasePage):
-    USERNAME = (By.ID, "TextUsername")
-    PASSWORD = (By.ID, "TextPassword")
-    LOGIN_BUTTON = (By.NAME, "ctl56")
-    ERROR_MESSAGE = (By.XPATH, '//span[@id="LabelError"]')
+    USERNAME = (By.XPATH, get__login_locator_value.USERNAME)
+    PASSWORD = (By.XPATH, get__login_locator_value.PASSWORD)
+    LOGIN_BUTTON = (By.XPATH, get__login_locator_value.SUBMIT_BUTTON)
+    ERROR_MESSAGE = (By.XPATH, get__login_locator_value.INVALID_ERROR_MESSAGE)
 
     def __init__(self, driver):
         super().__init__(driver)
