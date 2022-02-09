@@ -1122,3 +1122,39 @@ JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeE
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 1644401135425	Marionette	INFO	Stopped listening on port 54464
+1644404149964	geckodriver	INFO	Listening on 127.0.0.1:58263
+1644404154094	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58264" "-no-remote" "-profile" "C:\\Users\\SATISH\\AppData\\Local\\Temp\\rust_mozprofilete6tyj"
+1644404188382	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SATISH\\AppData\\Local\\Temp\\rust_mozprofilete6tyj\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:58264/devtools/browser/2246a80e-13aa-44c9-81fb-11378bed619c
+1644404240870	Marionette	INFO	Listening on port 58275
+win.cc:405
+[GFX1-]: [D3D11] failed to get compconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SATISH\\AppData\\Local\\Temp\console.warn: SearchSettings: "get: No settings file exisconsole.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:58353/devtools/browser/a6280ac8-3ac3-46ce-a277-f19d273365ee
+1644404240874	Marionette	INFO	Listening on port 58372
+1644404243780	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644404467075	Marionette	INFO	Stopped listening on port 58372
+[Parent 17460, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+FO	Listening on port 58308
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+ 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))DDevTools listening on ws://localhost:58350/devtools/browser/dd01a13f-c681-4e4e-95ae-610b8a6d641e11644404240825	Marionette	INFO	Listening on port 5837111644404242123	RemoteAgent	WARN	TLS certificate errors will be ignored for this session[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+11644404465146	Marionette	INFO	Stopped listening on port 58371[Parent 7868, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+te-debugging-port" "58667" "-no-remote" "-profile" "C:\\Users\\SATISH\\AppData\\Local\\Temp\\rust_mozprofileMZE2z0"
+1644404260982	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SATISH\\AppData\\Local\\Temp\\rust_mozprofileMZE2z0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58667/devtools/browser/a5d8779b-8cf1-4846-b257-41ace57e2a1d
+1644404267966	Marionette	INFO	Listening on port 58680
+1644404268899	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+1644404391649	Marionette	INFO	Stopped listening on port 58680
+[Parent 21288, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
