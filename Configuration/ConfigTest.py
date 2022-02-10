@@ -15,7 +15,7 @@ def init_driver(request):
         service = ChromeService(executable_path=ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service)
     if request.param == "firefox":
-        service = FirefoxService(executable_path=GeckoDriverManager().install())
+        service = FirefoxService(executable_path='GeckoDriver/geckodriver.exe')
         driver = webdriver.Firefox(service=service)
     request.cls.driver = driver
     driver.maximize_window()
