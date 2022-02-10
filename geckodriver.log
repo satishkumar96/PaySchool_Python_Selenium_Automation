@@ -1211,3 +1211,110 @@ JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeE
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1644410428303	geckodriver	INFO	Listening on 127.0.0.1:49266
+1644410431354	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49267" "-no-remote" "-profile" "C:\\Users\\SATISH\\AppData\\Local\\Temp\\rust_mozprofileIsHEf6"
+1644410431781	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SATISH\\AppData\\Local\\Temp\\rust_mozprofileIsHEf6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49267/devtools/browser/90f8c338-7b32-4ebb-a211-ee3495e6c947
+1644410436413	Marionette	INFO	Listening on port 49272
+1644410436964	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644410486183	Marionette	INFO	Stopped listening on port 49272
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1644410557407	geckodriver	INFO	Listening on 127.0.0.1:49419
+1644410560461	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49420" "-no-remote" "-profile" "C:\\Users\\SATISH\\AppData\\Local\\Temp\\rust_mozprofileLhcuX8"
+1644410561008	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SATISH\\AppData\\Local\\Temp\\rust_mozprofileLhcuX8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49420/devtools/browser/63b50399-5c5a-498c-a3d7-ede9716196e1
+1644410565632	Marionette	INFO	Listening on port 49425
+1644410566297	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644410603901	Marionette	INFO	Stopped listening on port 49425
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1644467258877	geckodriver	INFO	Listening on 127.0.0.1:62124
+1644467261881	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62125" "-no-remote" "-profile" "C:\\Users\\SATISH\\AppData\\Local\\Temp\\rust_mozprofileHnDgpo"
+1644467262321	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SATISH\\AppData\\Local\\Temp\\rust_mozprofileHnDgpo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62125/devtools/browser/9cc3d089-9693-4e10-9961-33f210b66354
+1644467266370	Marionette	INFO	Listening on port 62130
+1644467266831	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644467313199	Marionette	INFO	Stopped listening on port 62130
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1644467348592	geckodriver	INFO	Listening on 127.0.0.1:62253
+1644467351645	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62254" "-no-remote" "-profile" "C:\\Users\\SATISH\\AppData\\Local\\Temp\\rust_mozprofileOsWxD9"
+1644467352031	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SATISH\\AppData\\Local\\Temp\\rust_mozprofileOsWxD9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62254/devtools/browser/469b8b54-0b09-4076-825b-90f577a78ad2
+1644467356119	Marionette	INFO	Listening on port 62259
+1644467356661	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alpha4a-test.sdms2.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644467379316	Marionette	INFO	Stopped listening on port 62259
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
