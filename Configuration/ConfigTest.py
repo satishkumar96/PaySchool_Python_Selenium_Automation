@@ -9,13 +9,13 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.firefox.service import Service as FirefoxService
 
 
-@pytest.fixture(params=["chrome", "firefox"], scope="class")
+@pytest.fixture(params=["chrome"], scope="class")
 def init_driver(request):
     if request.param == "chrome":
         service = ChromeService(executable_path=ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service)
     if request.param == "firefox":
-        service = FirefoxService(executable_path='GeckoDriver/geckodriver.exe')
+        service = FirefoxService(executable_path=GeckoDriverManager().install())
         driver = webdriver.Firefox(service=service)
     request.cls.driver = driver
     driver.maximize_window()
@@ -26,14 +26,13 @@ def init_driver(request):
     yield
     driver.quit()
 
-    """Clean up the HTML directory to generate new HTML report"""
-    folder = 'HTML_Reports'
-    for filename in os.listdir(folder):
-        file_path = os.path.join(folder, filename)
-        try:
-            if os.path.isfile(file_path) or os.path.islink(file_path):
-                os.unlink(file_path)
-            elif os.path.isdir(file_path):
-                shutil.rmtree(file_path)
-        except Exception as e:
-            print('Failed to delete %s. Reason: %s' % (file_path, e))
+    """Delete HTML directory"""
+    if os.path.exists("HTML_Reports"):
+        os.rmdir("HTML_Reports")
+    else:
+        print("The folder does not exist")
+
+    if os.path.exists("Test/HTML_Reports"):
+        os.rmdir("Test/HTML_Reports")
+    else:
+        print("The folder does not exist")

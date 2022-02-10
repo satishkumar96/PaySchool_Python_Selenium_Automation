@@ -21,7 +21,7 @@ class Test_LoginPage(BaseTest):
         self.lp = LoginPage(self.driver)
         self.lp.bar_menu_icon()
 
-    def test_positive_login(self):
+    def test_logout(self):
         self.lp = LoginPage(self.driver)
         self.lp.do_positive_login()
         self.hp = HomePage(self.driver)
@@ -34,3 +34,7 @@ class Test_LoginPage(BaseTest):
     def test_negative_login(self):
         self.lp = LoginPage(self.driver)
         self.lp.do_negative_login()
+
+    def test_positive_login(self):
+        self.lp = LoginPage(self.driver)
+        self.lp.do_positive_login()

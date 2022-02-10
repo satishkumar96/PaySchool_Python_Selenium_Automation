@@ -98,3 +98,27 @@ class Test_HomePage(BaseTest):
     def test_click_no_second_meal(self):
         self.hp = HomePage(self.driver)
         self.hp.click_no_second_meal()
+
+    def test_verify_item_groups_not_allowed(self):
+        self.hp = HomePage(self.driver)
+        self.hp.verify_item_groups_not_allowed()
+
+    def test_click_item_groups_not_allowed(self):
+        self.hp = HomePage(self.driver)
+        self.hp.item_groups_not_allowed()
+
+    def test_click_item_groups_not_allowed_dropdown(self):
+        self.hp = HomePage(self.driver)
+        self.hp.item_groups_not_allowed_dropdown()
+
+    def test_verify_item_not_allowed(self):
+        self.hp = HomePage(self.driver)
+        self.hp.verify_item_not_allowed()
+
+    def test_item_not_allowed(self):
+        self.hp = HomePage(self.driver)
+        self.hp.item_not_allowed()
+
+    def test_item_not_allowed_dropdown(self):
+        self.hp = HomePage(self.driver)
+        self.hp.item_not_allowed_dropdown()

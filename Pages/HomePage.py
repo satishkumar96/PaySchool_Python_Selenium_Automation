@@ -1,3 +1,5 @@
+import time
+
 from Locators.HomePageLocators import get__home_page_locator_value
 from Pages.BasePage import BasePage
 from selenium.webdriver.common.by import By
@@ -22,6 +24,10 @@ class HomePage(BasePage):
     NO_A_LA_CARTE = (By.XPATH, get__home_page_locator_value.NO_A_LA_CARTE)
     NO_BREAKFAST = (By.XPATH, get__home_page_locator_value.NO_BREAKFAST)
     NO_SECOND_MEAL = (By.XPATH, get__home_page_locator_value.NO_SECOND_MEAL)
+    ITEM_GROUPS_NOT_ALLOWED_LIST = (By.XPATH, get__home_page_locator_value.ITEM_GROUPS_NOT_ALLOWED_LIST)
+    ITEMS_NOT_ALLOWED_LIST = (By.XPATH, get__home_page_locator_value.ITEMS_NOT_ALLOWED_LIST)
+    ITEM_GROUP_NOT_ALLOWED = (By.XPATH, get__home_page_locator_value.ITEM_GROUP_NOT_ALLOWED)
+    ITEMS_NOT_ALLOWED = (By.XPATH, get__home_page_locator_value.ITEMS_NOT_ALLOWED)
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -108,8 +114,31 @@ class HomePage(BasePage):
 
     def click_no_second_meal(self):
         self.verify_no_second_meal()
-        self.click_elements(self.NO_BREAKFAST)
+        self.click_elements(self.NO_SECOND_MEAL)
 
     def click_no_breakfast(self):
         self.verify_no_breakfast()
         self.click_elements(self.NO_BREAKFAST)
+
+    def verify_item_groups_not_allowed(self):
+        assert self.display_element(self.ITEM_GROUP_NOT_ALLOWED)
+
+    def item_groups_not_allowed(self):
+        self.verify_item_groups_not_allowed()
+        self.click(self.ITEM_GROUP_NOT_ALLOWED)
+
+    def item_groups_not_allowed_dropdown(self):
+        self.click_elements(self.ITEM_GROUPS_NOT_ALLOWED_LIST)
+        self.click(self.ITEM_GROUP_NOT_ALLOWED)
+        time.sleep(2)
+
+    def verify_item_not_allowed(self):
+        assert self.display_element(self.ITEMS_NOT_ALLOWED)
+
+    def item_not_allowed(self):
+        self.verify_item_not_allowed()
+        self.click(self.ITEMS_NOT_ALLOWED)
+
+    def item_not_allowed_dropdown(self):
+        self.click_elements(self.ITEMS_NOT_ALLOWED_LIST)
+        self.click(self.ITEMS_NOT_ALLOWED)
