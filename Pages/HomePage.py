@@ -35,6 +35,7 @@ class HomePage(BasePage):
     def do_logout(self):
         self.move_to_element(self.RIGHT_ARROW).perform()
         self.click(self.LOGOUT)
+        time.sleep(2)
         self.get_alert().accept()
 
     def verify_home_tab(self):
