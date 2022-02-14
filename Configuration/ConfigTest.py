@@ -1,6 +1,3 @@
-import os
-import shutil
-
 import pytest
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
@@ -9,8 +6,9 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.firefox.service import Service as FirefoxService
 
 
-@pytest.fixture(params=["chrome","firefox"], scope="class")
+@pytest.fixture(params=["chrome"], scope="class")
 def init_driver(request):
+    global driver
     if request.param == "chrome":
         service = ChromeService(executable_path=ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service)
@@ -25,14 +23,3 @@ def init_driver(request):
     driver.delete_all_cookies()
     yield
     driver.quit()
-
-    """Delete HTML directory"""
-    if os.path.exists("HTML_Reports"):
-        os.rmdir("HTML_Reports")
-    else:
-        print("The folder does not exist")
-
-    if os.path.exists("Test/HTML_Reports"):
-        os.rmdir("Test/HTML_Reports")
-    else:
-        print("The folder does not exist")

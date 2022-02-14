@@ -1,5 +1,5 @@
 import time
-
+import rpa
 from Locators.HomePageLocators import get__home_page_locator_value
 from Pages.BasePage import BasePage
 from selenium.webdriver.common.by import By
@@ -142,3 +142,9 @@ class HomePage(BasePage):
     def item_not_allowed_dropdown(self):
         self.click_elements(self.ITEMS_NOT_ALLOWED_LIST)
         self.click(self.ITEMS_NOT_ALLOWED)
+
+    def click_report_tab(self):
+        self.verify_report_tab()
+        rpa.init(visual_automation=True)
+        rpa.click(self.REPORT_TAB)
+        rpa.close()

@@ -122,3 +122,7 @@ class Test_HomePage(BaseTest):
     def test_item_not_allowed_dropdown(self):
         self.hp = HomePage(self.driver)
         self.hp.item_not_allowed_dropdown()
+
+    def test_click_report(self):
+        self.hp = HomePage(self.driver)
+        self.hp.click_report_tab()
