@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.firefox.service import Service as FirefoxService
 
 
-@pytest.fixture(params=["chrome"], scope="class")
+@pytest.fixture(params=["chrome","firefox"], scope="class")
 def init_driver(request):
     global driver
     if request.param == "chrome":
