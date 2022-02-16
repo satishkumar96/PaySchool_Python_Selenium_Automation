@@ -4,9 +4,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.firefox.service import Service as FirefoxService
+from pytest_html_reporter import attach
 
-
-@pytest.fixture(params=["chrome","firefox"], scope="class")
+@pytest.fixture(params=["chrome", "firefox"], scope="class")
 def init_driver(request):
     global driver
     if request.param == "chrome":
@@ -22,4 +22,5 @@ def init_driver(request):
     driver.get("https://alpha4a-test.sdms2.com/Default.aspx")
     driver.delete_all_cookies()
     yield
+    attach(data=driver.get_screenshot_as_png())
     driver.quit()

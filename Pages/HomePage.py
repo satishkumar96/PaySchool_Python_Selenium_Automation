@@ -146,6 +146,6 @@ class HomePage(BasePage):
 
     def click_report_tab(self):
         self.verify_report_tab()
-        # rpa.init(visual_automation=True, chrome_browser=False)
-        # rpa.click(self.REPORT_TAB)
-        # rpa.close()
+        rpa.init(visual_automation=True, chrome_browser=False)
+        rpa.click("Element_Images/report.png")
+        rpa.close()
